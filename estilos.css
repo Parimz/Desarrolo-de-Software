@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f5f7;
+}
+
+header {
+    height: 56px;
+    background-color: #df2116;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.titulo {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.usuario {
+    color: yellow;
+    font-size: 11px;
+}
+
+.barra {
+    height: 32px;
+    background-color: #222629;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 300px;
+    height: 260px;
+    background-color: white;
+    border: 1px solid #d9dfe5;
+    border-radius: 44px;
+    text-align: center;
+    padding: 22px 29px;
+}
+
+.login h3 {
+    font-size: 14px;
+    color: #222629;
+    margin-bottom: 33px;
+}
+
+input {
+    width: 100%;
+    height: 32px;
+    background-color: #f4f5f7;
+    border: 1px solid #d0d4d8;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 9px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 32px;
+    background-color: #df2116;
+    color: white;
+    border-radius: 6px;
+    font-size: 9px;
+    font-weight: bold;
+    margin-top: 12px;
+}
